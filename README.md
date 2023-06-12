@@ -10,7 +10,7 @@ This project provides a minimalist model, which explores the dynamics of adhesio
 when being stretched. As in an open system, molecules are exchanged between a reservoir
 and the adhesion cluster. To account for adhesion growth upon molecule unfolding, we
 expand the reservoir rate to be proportional to the number of unfolded bound molecules.
-![ Sketch of the horizontal model.](HorizontalModel2.pdf)
+![ Sketch of the horizontal model.](HorizontalModel2.png)
 This project contains python scripts for simulating the dynamics, a python script for data analysis, a Mathematica notebook to compute an analytical solution as well as a data example.
 
 ### Files
