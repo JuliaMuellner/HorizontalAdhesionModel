@@ -2,15 +2,12 @@
 
 ### Overview
 
-In the framework of my Master thesis in the group of [Cell Biophysics and Statistical Physics](https://www.biostatphys.vetmed.uni-muenchen.de/index.html), the main objective is to model the effect
-of vinculin binding to both force-induced unfolded talin and actin, which subsequently
+In the framework of my Master thesis in the group of [Cell Biophysics and Statistical Physics](https://www.biostatphys.vetmed.uni-muenchen.de/index.html), the main objective is to model the effect  of vinculin binding to both force-induced unfolded talin and actin, which subsequently
 triggers the recruitment of new talin in focal adhesions.
 
-This project provides a minimalist model, which explores the dynamics of adhesion clusters in the presence of constant shear forces. The system is reduced to a single adapter molecule species (talin) that can undergo conformational changes
-when being stretched. As in an open system, molecules are exchanged between a reservoir
-and the adhesion cluster. To account for adhesion growth upon molecule unfolding, we
-expand the reservoir rate to be proportional to the number of unfolded bound molecules.
-![ Sketch of the horizontal model.](HorizontalModel2.png)
+This project provides a minimalist model, which explores the dynamics of adhesion clusters in the presence of constant shear forces. The system is reduced to a single adapter molecule species (talin) that can undergo conformational changes  when being stretched. As in an open system, molecules are exchanged between a reservoir
+and the adhesion cluster. To account for adhesion growth upon molecule unfolding, we expand the reservoir rate to be proportional to the number of unfolded bound molecules.
+![ Sketch of the horizontal model.](HorizontalModel2.png) 
 This project contains python scripts for simulating the dynamics, a python script for data analysis, a Mathematica notebook to compute an analytical solution as well as a data example.
 
 ### Files
